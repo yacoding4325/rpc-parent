@@ -13,6 +13,7 @@
         <module>consumer-parent</module>
         <module>ms-rpc</module>
         <module>provider-parent</module>
+        <module>consumer</module>
     </modules>
 
     <properties>
