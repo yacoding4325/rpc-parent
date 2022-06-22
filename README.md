@@ -21,3 +21,9 @@
 # Netty入门
 
 > Netty是一款基于NIO（Nonblocking I/O，非阻塞IO）开发的网络通信框架
+
+# 1. 理解IO模型
+
+> 以两个应用程序通讯为例：应用A向应用B发送一条消息
+
+![image](https://user-images.githubusercontent.com/82166879/174935647-a9b0fd55-600e-425c-831a-e26a01b4c32a.png)
