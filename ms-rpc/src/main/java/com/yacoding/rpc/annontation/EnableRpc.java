@@ -1,7 +1,7 @@
 package com.yacoding.rpc.annontation;
 
-import com.mszlu.rpc.bean.MsBeanDefinitionRegistry;
-import com.mszlu.rpc.spring.MsRpcSpringBeanPostProcessor;
+import com.yacoding.rpc.bean.MsBeanDefinitionRegistry;
+import com.yacoding.rpc.spring.MsRpcSpringBeanPostProcessor;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;
