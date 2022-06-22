@@ -6,9 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="provider-service-impl" />
         <module name="ms-rpc" />
+        <module name="provider-api" />
         <module name="consumer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="provider-service-impl (1) (com.yacoding.provider-service)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
