@@ -1,0 +1,2 @@
+com.yacoding.rpc.compress.GzipCompress
+com.yacoding.rpc.compress.OtherCompress
