@@ -1,6 +1,6 @@
 package com.yacoding.rpc.provider.service;
 
-import com.mszlu.rpc.provider.service.model.Goods;
+import com.yacoding.rpc.provider.service.model.Goods;
 import com.yacoding.rpc.provider.service.model.Goods;
 
 public interface OrderService {
