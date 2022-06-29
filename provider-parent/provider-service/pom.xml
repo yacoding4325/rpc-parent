@@ -13,9 +13,6 @@
     <artifactId>provider-service</artifactId>
     <packaging>pom</packaging>
 
-    <modules>
-        <module>provider-service-impl</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
