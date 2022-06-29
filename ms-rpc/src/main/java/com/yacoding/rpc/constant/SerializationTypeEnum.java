@@ -17,7 +17,7 @@ public enum SerializationTypeEnum {
 
     private final String name;
 
-    public String getName() {
+    public static String getName(byte code) {
         for (SerializationTypeEnum c :SerializationTypeEnum.values()) {
             if (c.getCode() == code) {
                 return c.name;

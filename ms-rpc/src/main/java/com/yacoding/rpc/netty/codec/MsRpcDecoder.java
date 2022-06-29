@@ -113,7 +113,7 @@ public class MsRpcDecoder extends LengthFieldBasedFrameDecoder {
                 msMessage.setData(msRequest);
             }
             if (MessageTypeEnum.RESPONSE.getCode() == messageType){
-                MsResponse msResponse = (MsResponse) serializer.deserialize(bodyData, MsRequest.class);
+                MsResponse msResponse = (MsResponse) serializer.deserialize(bodyData, MsResponse.class);
                 msMessage.setData(msResponse);
             }
 
@@ -137,7 +137,7 @@ public class MsRpcDecoder extends LengthFieldBasedFrameDecoder {
         ServiceLoader<Compress> load = ServiceLoader.load(Compress.class);
         for (Compress compress : load){
             if (compress.name().equals(name)){
-                    return compress;
+                return compress;
             }
         }
         throw new MsRpcException("无对应的压缩类型");

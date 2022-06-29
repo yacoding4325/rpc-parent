@@ -1,6 +1,6 @@
 package com.yacoding.rpc.netty.client;
 
-import com.mszlu.rpc.message.MsRequest;
+import com.yacoding.rpc.message.MsRequest;
 
 public interface MsClient {
 
