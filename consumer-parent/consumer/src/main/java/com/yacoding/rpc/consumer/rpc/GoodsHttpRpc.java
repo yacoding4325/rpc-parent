@@ -2,7 +2,7 @@ package com.yacoding.rpc.consumer.rpc;
 
 import com.yacoding.rpc.annontation.MsHttpClient;
 import com.yacoding.rpc.annontation.MsMapping;
-import com.yacoding.rpc.consumer.controller.Goods;
+import com.yacoding.rpc.provider.service.model.Goods;
 
 /**
  * @Author yaCoding

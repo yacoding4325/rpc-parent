@@ -1,8 +1,9 @@
 package com.yacoding.rpc.consumer.controller;
 
 import com.yacoding.rpc.annontation.MsReference;
-import com.yacoding.provider.service.GoodsService;
-import com.yacoding.provider.service.model.Goods;
+import com.yacoding.rpc.consumer.rpc.GoodsHttpRpc;
+import com.yacoding.rpc.provider.service.GoodsService;
+import com.yacoding.rpc.provider.service.model.Goods;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -30,6 +31,5 @@ public class ConsumerController {
         //通过http调用 去访问provider提供的商品查询服务
         return goodsService.findGoods(id);
     }
-
 
 }
