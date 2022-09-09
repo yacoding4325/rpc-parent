@@ -57,5 +57,6 @@ public class OtherCompress implements Compress{
         } catch (IOException e) {
             throw new MsRpcException("解压缩数据出错", e);
         }
+
     }
 }
