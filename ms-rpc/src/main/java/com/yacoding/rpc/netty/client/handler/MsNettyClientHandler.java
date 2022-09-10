@@ -77,7 +77,6 @@ public class MsNettyClientHandler extends ChannelInboundHandlerAdapter {
         super.channelInactive(ctx);
         log.info("服务端关闭了连接....");
         //清除对应的缓存
-
         ctx.fireChannelInactive();
     }
 }
