@@ -11,6 +11,7 @@
         <module name="ms-rpc" />
         <module name="provider-api" />
         <module name="consumer" />
+        <module name="netty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
