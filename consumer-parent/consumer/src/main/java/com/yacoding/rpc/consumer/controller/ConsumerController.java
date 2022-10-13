@@ -32,4 +32,21 @@ public class ConsumerController {
         return goodsService.findGoods(id);
     }
 
+//        @GetMapping("/find/{id}")
+//    public Goods find(@PathVariable Long id){
+//        //通过http调用 去访问provider提供的商品查询服务
+//        //http://localhost:7777/provider/goods/1
+//        Goods goods = restTemplate.getForObject("http://localhost:7777/provider/goods/" + id, Goods.class);
+//        return goods;
+//    }
+
+//    @Autowired
+//    private GoodsHttpRpc goodsHttpRpc;
+//
+//    @GetMapping("/find/{id}")
+//    public Goods find(@PathVariable Long id){
+//        //通过http调用 去访问provider提供的商品查询服务
+//        return goodsHttpRpc.findGoods(id);
+//    }
+
 }
