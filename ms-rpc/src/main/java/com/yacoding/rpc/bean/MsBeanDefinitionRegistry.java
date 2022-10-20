@@ -66,8 +66,6 @@ public class MsBeanDefinitionRegistry implements ImportBeanDefinitionRegistrar,
                     registry.registerBeanDefinition(beanName, beanDefinitionBuilder.getBeanDefinition());
                 }
             }
-
-
         }
     }
 
